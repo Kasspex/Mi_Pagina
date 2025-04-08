@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Andres Felipe Homez</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#hobbies">Mis hobbies</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="info">
+            <img src="./andres.png" alt="Imagen de Andres">
+            <p>Soy Andres, tengo 21 años, me gusta la programacion.
+                Actualmente, estoy estudiando para ser Desarrollador Full Stack Java
+            </p>
+            </div>
+        </section>
+        <section id="hobbies">
+            <h2>Mis Hobbies</h2>
+            <ul>
+                <li>Aprender idiomas</li>
+                <li>Ver series de ciencia ficcion</li>
+                <li>Correr</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <form>
+                <input type="text" id="nombre-persona" placeholder="Nombre completo">
+                <button type="submit" id="enviar"> Enviar </button>
+                <div id="miAlerta" class="alerta">
+                    Esta es la alerta
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/andres-homez-parada-desarrollador-java/" target="_blank">LinkedIn</a>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

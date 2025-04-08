@@ -1,0 +1,73 @@
+header{
+    background-color: #27391C;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 0%;
+}
+.alerta {
+    display: none;
+    background-color: #1F7D53; 
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+body{
+    background-color: #18230F;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    width: 220px;
+    height: 250px;
+}
+
+#sobre-mi{
+    background-color: #255F38;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#hobbies{
+    background-color: #255F38;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#contacto{
+    background-color: #255F38;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #1F7D53;
+    color: #FFFFFF;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #255F38;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
